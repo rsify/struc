@@ -1,4 +1,4 @@
-# struc [![Build Status](https://travis-ci.org/nikersify/struc.svg?branch=master)](https://travis-ci.org/nikersify/struc)
+# struc [![Travis build](https://travis-ci.org/nikersify/struc.svg?branch=master)](https://travis-ci.org/nikersify/struc) [![AppVeyor build](https://ci.appveyor.com/api/projects/status/f6bhfklqk61bnqrc?svg=true)](https://ci.appveyor.com/project/nikersify/struc)
 
 > Create file/dir structures from plain js objects on disk
 
