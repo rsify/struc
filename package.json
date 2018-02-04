@@ -1,0 +1,35 @@
+{
+	"name": "struc",
+	"version": "0.0.0",
+	"description": "Build file/dir structures from plain js objects",
+	"license": "MIT",
+	"repository": "nikersify/struc",
+	"author": {
+		"name": "nikersify",
+		"email": "nikersifyyt@gmail.com",
+		"url": "nikerino.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {
+		"fs-extra": "^5.0.0",
+		"tempy": "^0.2.1"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	},
+	"xo": {
+		"semicolon": false
+	}
+}
