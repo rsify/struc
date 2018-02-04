@@ -1,6 +1,6 @@
 {
 	"name": "struc",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Build file/dir structures from plain js objects",
 	"license": "MIT",
 	"repository": "nikersify/struc",
@@ -19,7 +19,13 @@
 		"index.js"
 	],
 	"keywords": [
-		"file", "directory", "fs", "build", "create", "nikerino", "json"
+		"file",
+		"directory",
+		"fs",
+		"build",
+		"create",
+		"nikerino",
+		"json"
 	],
 	"dependencies": {
 		"fs-extra": "^5.0.0",
