@@ -6,7 +6,7 @@ const tempy = require('tempy')
 const fs = require('fs-extra')
 
 module.exports = (dir, structure) => {
-	if (structure === null) {
+	if (!structure) {
 		structure = dir
 		dir = tempy.directory()
 	}

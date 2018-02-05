@@ -16,6 +16,20 @@ test.afterEach(async t => {
 	await fs.remove(t.context.path)
 })
 
+test('allows single argument', async t => {
+	const p = struc({
+		foo: 'bar'
+	})
+
+	t.is(typeof p, 'string')
+	t.true(p.length > 0)
+	t.true(await fs.exists(p))
+
+	t.is(await fs.readFile(p + '/foo', 'utf8'), 'bar')
+
+	await fs.remove(p)
+})
+
 test('returns resolved directory', t => {
 	const p = struc(t.context.path, {})
 
