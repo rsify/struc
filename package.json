@@ -1,7 +1,7 @@
 {
 	"name": "struc",
 	"version": "1.0.1",
-	"description": "Build file/dir structures from plain js objects",
+	"description": "Build file/dir structures on disk from plain js objects",
 	"license": "MIT",
 	"repository": "nikersify/struc",
 	"author": {
